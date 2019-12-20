@@ -4,7 +4,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Profile | Line Clone</title>
+    <title>More | Line Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/63820efb51.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <!-- 기기 상단 (통신사정보, 기기시간...)-->
+    <header class="top-area">
+      <div class="top-area__time">KT 9:38</div>
+      <div class="top-area__info">
+        <i class="fas fa-stopwatch"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        56%
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </header>
+    <!--상단 고정 메뉴, position:fixed -->
+    <header class="header">
+      <div class="header__column">
+        <div class="header__column-title">더보기</div>
+      </div>
+      <div class="header__column">
+        <div class="header__column-menu-icons">
+          <a href="setting.html"><i class="fas fa-cog"></i></a>
+        </div>
+      </div>
+    </header>
+    <!--main area -->
+    <main class="main">
+      <div class="main__top-bar">
+        <div class="main__coulumn"></div>
+        <div class="main__coulumn"></div>
+        <div class="main__coulumn"></div>
+      </div>
+      <div class="main__menu-area">
+        <ul class="linked-menus">
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-user-plus"></i></div>
+            <div class="linked-title">친구추가</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon">
+              <i class="far fa-kiss-wink-heart"></i>
+            </div>
+            <div class="linked-title">스티커샵</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-brush"></i></div>
+            <div class="linked-title">테마샵</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-flag-checkered"></i></div>
+            <div class="linked-title">공식계정</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="linked-title">전화</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-tag"></i></div>
+            <div class="linked-title">Keep</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-gift"></i></div>
+            <div class="linked-title">GIFTSHOP</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-pastafarianism"></i></div>
+            <div class="linked-title">LINE FRIENDS</div>
+          </li>
+          <li class="menu">
+            <div class="linked-icon"><i class="fas fa-sun"></i></div>
+            <div class="linked-title">B612</div>
+          </li>
+        </ul>
+      </div>
+      <div class="main__sticker-area">
+        <div class="main__sticker-top">
+          <div class="sticker-top__colunm">인기공식스티커</div>
+          <div class="sticker-top__colunm">더보기</div>
+        </div>
+        <div class="main__stickers">
+          <ul class="sticker-list">
+            <li class="sticker"><i class="fas fa-paw"></i></li>
+            <li class="sticker"><i class="fas fa-spider"></i></li>
+            <li class="sticker"><i class="fas fa-dove"></i></li>
+            <li class="sticker"><i class="fas fa-cat"></i></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!--하단 메뉴, position:fixed-->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav__icons">
+          <a href="friends.html"
+            ><i class="far fa-user"></i>
+            <div>친구</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="index.html"
+            ><i class="fas fa-comment-dots"></i>
+            <div>대화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="timeline.html"
+            ><i class="far fa-clock"></i>
+            <div>타임라인</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="call.html"
+            ><i class="fas fa-phone-alt"></i>
+            <div>통화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="more.html"
+            ><i class="fas fa-ellipsis-h"></i>
+            <div>더보기</div></a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>

@@ -4,7 +4,172 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>친구</title>
+    <title>Friends | Line Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/63820efb51.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <!-- 기기 상단 (통신사정보, 기기시간...)-->
+    <header class="top-area">
+      <div class="top-area__time">KT 9:38</div>
+      <div class="top-area__info">
+        <i class="fas fa-stopwatch"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        56%
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </header>
+    <!--상단 고정 메뉴, position:fixed -->
+    <header class="header">
+      <div class="header__column">
+        <div class="header__column-title">친구 (10명)</div>
+      </div>
+      <div class="header__column">
+        <div class="header__column-menu-icons">
+          <i class="fas fa-user-plus"></i>
+          <a href="setting.html"><i class="fas fa-cog"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- search area -->
+    <div class="search-area">
+      <input type="text" placeholder="&#xf002;검색" class="fontAwesome" />
+    </div>
+    <!--main area, 스크롤시 그룹이 상단으로 변경되는 이벤트가 있음  -->
+    <main class="main">
+      <header class="main__user-info">
+        <ul class="chat-list">
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata avata-lg" src="./images/profile.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title user-profile">User Name</span>
+                  <span class="chat__preview">User's message</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </header>
+      <div class="friend-title">친구 70</div>
+      <div class="main__chat-box">
+        <ul class="chat-list">
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Friend Name</span>
+                  <span class="chat__preview">Friend Comment</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Friend Name</span>
+                  <span class="chat__preview">Friend Comment</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Friend Name</span>
+                  <span class="chat__preview">Friend Comment</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Friend Name</span>
+                  <span class="chat__preview">Friend Comment</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Friend Name</span>
+                  <span class="chat__preview">Friend Comment</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!--하단 메뉴, position:fixed-->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav__icons">
+          <a href="friends.html"
+            ><i class="far fa-user"></i>
+            <div>친구</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="index.html"
+            ><i class="fas fa-comment-dots"></i>
+            <div>대화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="timeline.html"
+            ><i class="far fa-clock"></i>
+            <div>타임라인</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="call.html"
+            ><i class="fas fa-phone-alt"></i>
+            <div>통화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="more.html"
+            ><i class="fas fa-ellipsis-h"></i>
+            <div>더보기</div></a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>

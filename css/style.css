@@ -1,0 +1,24 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+@import url("top-area.css");
+@import url("nav.css");
+@import url("main.css");
+@import url("header.css");
+@import url("search-area.css");
+
+html,
+body {
+  background-color: #ffffff;
+}
+
+.fontAwesome {
+  font-family: "Helvetica", FontAwesome, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

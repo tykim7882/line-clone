@@ -5,17 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Chat | Line Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <script
       src="https://kit.fontawesome.com/63820efb51.js"
       crossorigin="anonymous"
     ></script>
-    <style>
-      .fontAwesome {
-        font-family: "Helvetica", FontAwesome, sans-serif;
-      }
-    </style>
   </head>
   <body>
+    <!-- 기기 상단 (통신사정보, 기기시간...)-->
     <header class="top-area">
       <div class="top-area__time">KT 9:38</div>
       <div class="top-area__info">
@@ -23,54 +20,131 @@
         <i class="fab fa-bluetooth-b"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        96%
+        56%
         <i class="fas fa-battery-half"></i>
       </div>
     </header>
+    <!--상단 고정 메뉴, position:fixed -->
     <header class="header">
       <div class="header__column">
-        <h3 class="header__header-title">대화</h3>
-        <div class="header__header-menu-icons">
+        <div class="header__column-title">대화</div>
+      </div>
+      <div class="header__column">
+        <div class="header__column-menu-icons">
           <i class="fas fa-comment-medical"></i>
-        </div>
-        <div class="header__header-menu-icons">
           <i class="fas fa-ellipsis-v"></i>
         </div>
       </div>
-      <div class="header__search-input">
-        <input type="text" placeholder="&#xf002;검색" class="fontAwesome" />
-      </div>
     </header>
-    <div class="chatbox">
-      <div class="chatbox__column">
-        <div class="chatbox__column-chat">
-          <div class="chat-avata">
-            <img src="./images/avata.png" />
-          </div>
-          <h5 class="chat-title">Chat Title(3)</h5>
-          <div class="chat-preview">사진을 보냈습니다.</div>
-        </div>
-        <div class="chatbox__column-timestamp">
-          오전 9:35
-        </div>
-      </div>
+    <!-- search area -->
+    <div class="search-area">
+      <input type="text" placeholder="&#xf002; 검색" class="fontAwesome" />
     </div>
-    <div class="menu-bar">
-      <div class="menu-bar menu">
-        <i class="far fa-user"></i>
+    <!--main area -->
+    <main class="main">
+      <div class="main__chat-box">
+        <ul class="chat-list">
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Chat Title(3)</span>
+                  <span class="chat__preview">사진을 보냈습니다.</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp">
+                  오전 9:35
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Chat Title(3)</span>
+                  <span class="chat__preview">사진을 보냈습니다.</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp">
+                  오전 9:35
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Chat Title(3)</span>
+                  <span class="chat__preview">사진을 보냈습니다.</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp">
+                  오전 9:35
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat">
+              <div class="chat__column">
+                <img class="chat__avata" src="./images/young-woman.jpg" />
+                <div class="chat__info">
+                  <span class="chat__title">Chat Title(3)</span>
+                  <span class="chat__preview">사진을 보냈습니다.</span>
+                </div>
+              </div>
+              <div class="chat__column">
+                <div class="chat__timestamp">
+                  오전 9:35
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="menu-bar menu">
-        <i class="fas fa-comment-dots"></i>
-      </div>
-      <div class="menu-bar menu">
-        <i class="far fa-clock"></i>
-      </div>
-      <div class="menu-bar menu">
-        <i class="fas fa-phone-alt"></i>
-      </div>
-      <div class="menu-bar menu">
-        <i class="fas fa-ellipsis-h"></i>
-      </div>
-    </div>
+    </main>
+    <!--하단 메뉴, position:fixed-->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav__icons">
+          <a href="friends.html"
+            ><i class="far fa-user"></i>
+            <div>친구</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="index.html"
+            ><i class="fas fa-comment-dots"></i>
+            <div>대화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="timeline.html"
+            ><i class="far fa-clock"></i>
+            <div>타임라인</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="call.html"
+            ><i class="fas fa-phone-alt"></i>
+            <div>통화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="more.html"
+            ><i class="fas fa-ellipsis-h"></i>
+            <div>더보기</div></a
+          >
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

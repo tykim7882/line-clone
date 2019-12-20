@@ -1,0 +1,14 @@
+.top-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  flex-direction: row;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: #9095a2;
+  background-color: #202a43;
+}
+.top-area .top-area__info i {
+  margin-left: -2px;
+}

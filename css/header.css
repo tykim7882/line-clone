@@ -1,0 +1,15 @@
+.header {
+  background-color: #252f4a;
+  color: #dfe1e5;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.header .header__column-title {
+  font-weight: 700;
+}
+
+.header__column-menu-icons i {
+  margin-right: 25px;
+}

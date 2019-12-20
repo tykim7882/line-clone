@@ -4,7 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>통화</title>
+    <title>Call | Line Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/63820efb51.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <!-- 기기 상단 (통신사정보, 기기시간...)-->
+    <header class="top-area">
+      <div class="top-area__time">KT 9:38</div>
+      <div class="top-area__info">
+        <i class="fas fa-stopwatch"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        56%
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </header>
+    <!--상단 고정 메뉴, position:fixed -->
+    <header class="header">
+      <div class="header__column">
+        <div class="header__column-title">통화</div>
+      </div>
+      <div class="header__column">
+        <div class="header__column-menu-icons">
+          <i class="fas fa-portrait"></i>
+        </div>
+      </div>
+    </header>
+    <!--main area -->
+    <main class="main">
+      <div class="main__call">
+        <div class="main__call-notice">
+          <div class="call-notice__title">무료로 통화하세요!</div>
+          <div class="call-notice__memo">
+            친구끼리 마음껏 즐기는 LINE 무료통화
+          </div>
+          <div class="call-notice__search">연락처에서 찾기</div>
+        </div>
+      </div>
+      <div class="main__transfer">
+        <ul class="main__transfer-calling">
+          <li class="target">
+            <div class="target__avata">
+              <img src="./images/avata.png" />
+            </div>
+            <div class="target__name">friend</div>
+          </li>
+          <li class="target">
+            <div class="target__avata">
+              <img src="./images/avata.png" />
+            </div>
+            <div class="target__name">friend</div>
+          </li>
+          <li class="target">
+            <div class="target__avata">
+              <img src="./images/avata.png" />
+            </div>
+            <div class="target__name">friend</div>
+          </li>
+          <li class="target">
+            <div class="target__avata">
+              <img src="./images/avata.png" />
+            </div>
+            <div class="target__name">friend</div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!--하단 메뉴, position:fixed-->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav__icons">
+          <a href="friends.html"
+            ><i class="far fa-user"></i>
+            <div>친구</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="index.html"
+            ><i class="fas fa-comment-dots"></i>
+            <div>대화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="timeline.html"
+            ><i class="far fa-clock"></i>
+            <div>타임라인</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="call.html"
+            ><i class="fas fa-phone-alt"></i>
+            <div>통화</div></a
+          >
+        </li>
+        <li class="nav__icons">
+          <a href="more.html"
+            ><i class="fas fa-ellipsis-h"></i>
+            <div>더보기</div></a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>

@@ -1,0 +1,54 @@
+.chat__avata {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avata-lg {
+  width: 60px;
+  height: 60px;
+}
+
+.chat-list .chat {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat .chat__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.chat .chat__column .chat__title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.chat .chat__column .chat__preview {
+  color: #cecece;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.chat .chat__column .chat__timestamp {
+  color: #cecece;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main .friend-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.main .chat .user-profile {
+  font-size: 18px;
+}
