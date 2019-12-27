@@ -1,3 +1,28 @@
+.main {
+  margin-bottom: 100px;
+}
+
+.main .main__top-bar {
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 90px;
+}
+
+.main__top-bar .main__coulumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__chat-box .chat-list:last-child {
+  margin-bottom: 100px;
+}
+
 .chat__avata {
   width: 50px;
   height: 50px;
@@ -9,13 +34,20 @@
   height: 60px;
 }
 
+.avata-xs {
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid #000000; */
+}
+
 .chat-list .chat {
   margin: 15px;
   display: flex;
   justify-content: space-between;
 }
 
-.chat .chat__column {
+.chat .chat__column,
+.chat .chat__column a {
   display: flex;
   justify-content: space-between;
   align-items: center;

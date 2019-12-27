@@ -12,17 +12,35 @@
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  align-content: space-around;
 }
 
-.nav__icons {
+.nav .nav__icons {
   color: #8c8c8c;
   font-size: 10px;
   padding: 20px;
-  display: flex;
+  position: relative;
 }
-
+.nav .nav__icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .nav__icons i {
   font-size: 24px;
   margin-bottom: 5px;
+}
+
+.nav__icons .badge {
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  color: white;
+  font-weight: 400;
+  background-color: red;
+  border-radius: 50%;
+  padding: 4px 4px;
+}
+
+.nav__icons .nav-selected div {
+  color: black;
 }

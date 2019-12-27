@@ -1,0 +1,33 @@
+.menu-timeline {
+  margin-top: 100px;
+}
+
+.main__timeline-box .timeline-title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.timeline-thum-img img {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+.timeline-msg {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.timeline-msg-more {
+  color: rgb(143, 135, 135);
+  font-weight: 500;
+}
+
+.timeline-response {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}

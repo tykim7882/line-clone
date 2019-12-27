@@ -1,0 +1,36 @@
+.menu-setting {
+  margin-top: 120px;
+}
+
+.main__setting-info li {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__setting-info .setting-info__menu {
+  color: #83a3ce;
+  font-weight: 700;
+  margin: 10px 20px;
+  font-size: 14px;
+}
+
+.main__setting-info ul {
+  border-bottom: 1px solid #f7f7f7;
+  /* padding: 20px 20px; */
+}
+
+.main__setting-info li {
+  font-size: 17px;
+  font-weight: 700;
+  color: #787d90;
+  margin: 25px 25px;
+}
+
+.main__setting-info .setting-info__title {
+  color: #323232;
+}
+
+.main .main__setting-info i {
+  margin-right: 20px;
+  width: 20px;
+}

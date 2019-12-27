@@ -5,6 +5,11 @@
 @import url("main.css");
 @import url("header.css");
 @import url("search-area.css");
+@import url("more.css");
+@import url("timeline.css");
+@import url("setting.css");
+@import url("call.css");
+@import url("profile.css");
 
 html,
 body {

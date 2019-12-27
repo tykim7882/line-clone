@@ -31,32 +31,42 @@
       </div>
       <div class="header__column">
         <div class="header__column-menu-icons">
-          <i class="far fa-bell"></i>
-          <i class="fas fa-home"></i>
+          <a href="#"><i class="far fa-bell"></i></a>
+          <a href="#"><i class="fas fa-home"></i></a>
         </div>
       </div>
     </header>
     <!--main area -->
-    <main class="main">
+    <main class="main menu-timeline">
       <div class="main__timeline-box">
         <div class="timeline-title">
-          <div class="chat__avata avata-xs">
-            <img src="./images/avata.png" />
+          <div class="">
+            <img class="chat__avata avata-xs" src="./images/profile.jpg" />
+            L**E팀
           </div>
-          LINE팀
-          <i class="fas fa-ellipsis-h"></i>
+          <div><i class="fas fa-ellipsis-h"></i></div>
         </div>
         <div class="timeline-thum-img">
           <img src="./images/ice.jpg" />
         </div>
         <div class="timeline-msg">
-          [네이버페이 X 라인페이] 이제 일본에서도 네이버페이 하세요! 일본 전국
-          라인페이 가맹점에서 네이버페이로 결제할 수 있습니다.
+          [네**페이 X 라*페이]<br />
+          이제 **에서도 네**페이 하세요! <br />
+          ** 전국 라*페이 가맹점에서 네**페이로 결제할 수 있습니다.<br />
+          <a href="#" class="timeline-msg-more">...더보기</a>
         </div>
         <div class="timeline-response">
-          <i class="far fa-smile"></i>
-          <i class="far fa-comment-dots"></i>
-          <i class="fas fa-share-alt"></i>
+          <div class="resp-icon">
+            <i class="far fa-smile"></i>
+            <i class="far fa-comment-dots"></i>
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <div class="reply-icon">
+            <i class="far fa-smile-wink"></i>
+            <i class="far fa-smile-beam"></i>
+            <i class="far fa-laugh-squint"></i>
+            좋아요 2,818
+          </div>
         </div>
       </div>
     </main>
@@ -64,34 +74,35 @@
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav__icons">
-          <a href="friends.html"
-            ><i class="far fa-user"></i>
+          <a href="friends.html">
+            <div><i class="far fa-user"></i></div>
             <div>친구</div></a
           >
         </li>
         <li class="nav__icons">
-          <a href="index.html"
-            ><i class="fas fa-comment-dots"></i>
-            <div>대화</div></a
-          >
+          <a href="index.html">
+            <div><i class="fas fa-comment-dots"></i></div>
+            <div>대화</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="timeline.html"
-            ><i class="far fa-clock"></i>
-            <div>타임라인</div></a
-          >
+          <a href="timeline.html" class="nav-selected">
+            <div><i class="far fa-clock"></i></div>
+            <div>타임라인</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="call.html"
-            ><i class="fas fa-phone-alt"></i>
-            <div>통화</div></a
-          >
+          <a href="call.html">
+            <div><i class="fas fa-phone-alt"></i></div>
+            <div>통화</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="more.html"
-            ><i class="fas fa-ellipsis-h"></i>
-            <div>더보기</div></a
-          >
+          <a href="more.html">
+            <div><i class="fas fa-ellipsis-h"></i></div>
+            <div>더보기</div>
+            <span class="badge">N</span>
+          </a>
         </li>
       </ul>
     </nav>

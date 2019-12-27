@@ -1,4 +1,7 @@
 .top-area {
+  position: fixed;
+  width: 100%;
+  top: 0px;
   display: flex;
   justify-content: space-between;
   padding: 10px 25px;
@@ -8,6 +11,8 @@
   font-weight: 400;
   color: #9095a2;
   background-color: #202a43;
+  margin-bottom: 300px;
+  z-index: 999;
 }
 .top-area .top-area__info i {
   margin-left: -2px;

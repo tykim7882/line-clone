@@ -38,9 +38,18 @@
     <!--main area -->
     <main class="main">
       <div class="main__top-bar">
-        <div class="main__coulumn"></div>
-        <div class="main__coulumn"></div>
-        <div class="main__coulumn"></div>
+        <div class="main__coulumn">
+          <img class="chat__avata avata-xs" src="./images/profile.jpg" />
+        </div>
+        <div class="main__coulumn">
+          <div class="l-point-area">
+            <span class="l-poin-p">P</span> <span class="l-poin-num">0</span>
+          </div>
+          <div class="l-point-tx">L**E 포인트</div>
+        </div>
+        <div class="main__coulumn">
+          <i class="more-qrcode fas fa-qrcode"></i>
+        </div>
       </div>
       <div class="main__menu-area">
         <ul class="linked-menus">
@@ -58,6 +67,8 @@
             <div class="linked-icon"><i class="fas fa-brush"></i></div>
             <div class="linked-title">테마샵</div>
           </li>
+        </ul>
+        <ul class="linked-menus">
           <li class="menu">
             <div class="linked-icon"><i class="fas fa-flag-checkered"></i></div>
             <div class="linked-title">공식계정</div>
@@ -70,6 +81,8 @@
             <div class="linked-icon"><i class="fas fa-tag"></i></div>
             <div class="linked-title">Keep</div>
           </li>
+        </ul>
+        <ul class="linked-menus">
           <li class="menu">
             <div class="linked-icon"><i class="fas fa-gift"></i></div>
             <div class="linked-title">GIFTSHOP</div>
@@ -80,21 +93,29 @@
           </li>
           <li class="menu">
             <div class="linked-icon"><i class="fas fa-sun"></i></div>
-            <div class="linked-title">B612</div>
+            <div class="linked-title">B**2</div>
           </li>
         </ul>
       </div>
       <div class="main__sticker-area">
         <div class="main__sticker-top">
-          <div class="sticker-top__colunm">인기공식스티커</div>
+          <div class="sticker-top__colunm">인기 공식 스티커</div>
           <div class="sticker-top__colunm">더보기</div>
         </div>
         <div class="main__stickers">
           <ul class="sticker-list">
-            <li class="sticker"><i class="fas fa-paw"></i></li>
-            <li class="sticker"><i class="fas fa-spider"></i></li>
-            <li class="sticker"><i class="fas fa-dove"></i></li>
-            <li class="sticker"><i class="fas fa-cat"></i></li>
+            <li class="sticker">
+              <i class="fas fa-paw"></i><span>인기스티커1</span>
+            </li>
+            <li class="sticker">
+              <i class="fas fa-spider"></i><span>인기스티커2</span>
+            </li>
+            <li class="sticker">
+              <i class="fas fa-dove"></i><span>인기스티커3</span>
+            </li>
+            <li class="sticker">
+              <i class="fas fa-cat"></i><span>인기스티커4</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -103,34 +124,35 @@
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav__icons">
-          <a href="friends.html"
-            ><i class="far fa-user"></i>
-            <div>친구</div></a
-          >
+          <a href="friends.html">
+            <div><i class="far fa-user"></i></div>
+            <div>친구</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="index.html"
-            ><i class="fas fa-comment-dots"></i>
-            <div>대화</div></a
-          >
+          <a href="index.html">
+            <div><i class="fas fa-comment-dots"></i></div>
+            <div>대화</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="timeline.html"
-            ><i class="far fa-clock"></i>
-            <div>타임라인</div></a
-          >
+          <a href="timeline.html">
+            <div><i class="far fa-clock"></i></div>
+            <div>타임라인</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="call.html"
-            ><i class="fas fa-phone-alt"></i>
-            <div>통화</div></a
-          >
+          <a href="call.html">
+            <div><i class="fas fa-phone-alt"></i></div>
+            <div>통화</div>
+          </a>
         </li>
         <li class="nav__icons">
-          <a href="more.html"
-            ><i class="fas fa-ellipsis-h"></i>
-            <div>더보기</div></a
-          >
+          <a href="more.html" class="nav-selected">
+            <div><i class="fas fa-ellipsis-h"></i></div>
+            <div>더보기</div>
+            <span class="badge">N</span>
+          </a>
         </li>
       </ul>
     </nav>

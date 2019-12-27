@@ -1,15 +1,19 @@
 .header {
+  position: fixed;
+  width: 100%;
+  top: 34px;
   background-color: #252f4a;
   color: #dfe1e5;
   display: flex;
   justify-content: space-between;
-  padding: 10px 10px;
+  padding: 20px 20px;
+  z-index: 999;
 }
 
 .header .header__column-title {
   font-weight: 700;
 }
 
-.header__column-menu-icons i {
-  margin-right: 25px;
+.header .header__column i {
+  margin-left: 10px;
 }
